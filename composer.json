@@ -1,29 +1,10 @@
 {
     "name": "felixbarrosdev/symfony-skeleton",
+    "description": "Un proyecto mínimo que te permite crear rápidamente un nuevo proyecto en Symfony.",
     "type": "project",
-    "license": "MIT",
-    "description": "Un proyecto mínimo que te permite crear rápidamente un nuevo proyecto basado en Symfony.",
-    "authors": [],
-    "keywords": [
-        "symfony",
-        "skeleton"
-    ],
-    "minimum-stability": "stable",
-    "prefer-stable": true,
+    "version": "1.0.0",
     "require": {
-        "php": ">=5.5.9"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "App\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "App\\Tests\\": "tests/"
-        }
+        "php": ">=5.5.9",
+        "symfony/symfony": "3.4.*"
     }
 }
